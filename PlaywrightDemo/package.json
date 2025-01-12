@@ -1,0 +1,22 @@
+{
+  "name": "playwrightdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "playwright": "npx playwright test",
+    "cucumber": "npx cucumber-js --config cucumber.json",
+    "test:bdd": "npx bddgen && npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.5",
+    "playwright-bdd": "^8.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}

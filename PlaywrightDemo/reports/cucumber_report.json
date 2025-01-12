@@ -1,0 +1,50 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "test;test-playwright",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Test Playwright",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "A user navigated to the Playwright",
+            "match": {
+              "location": "step_definitions\\TestStepDefinition.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2154186900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "The Playwright home page should be displayed",
+            "match": {
+              "location": "step_definitions\\TestStepDefinition.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51175900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "test",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Test",
+    "tags": [],
+    "uri": "features\\test.feature"
+  }
+]
