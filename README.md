@@ -3,4 +3,4 @@ This is a simple demo showing just the different ways of using Playwright, there
 
 To run playwright-bdd, need to switch the testDir in playwright.config.ts
 
-`testDir,   //playwright bdd`
+`testDir, //playwright bdd`
